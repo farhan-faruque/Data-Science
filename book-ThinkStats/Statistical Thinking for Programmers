@@ -1,0 +1,26 @@
+
+Data is cheap (at least relatively);knowledge is harder to come by.
+
+Mean
+-----
+If you have a sample of n values, x i , the mean, \u03bc, is the sum of the values divided by the
+number of values; in other words
+
+                  --
+ mean(miu) = 1/n  >  Xi
+                  --
+                  i
+ -The “mean” of a sample is the summary statistic computed with the previous formula.
+ -An “average” is one of many summary statistics you might choose to describe the
+    typical value or the central tendency of a sample.
+
+Variance
+---------
+ - If there is no single number that summarizes pumpkin weights, we can do a little better
+    with two numbers: mean and variance.
+
+ - the mean is intended to describe the central tendency, variance is
+    intended to describe the spread.
+
+##Things to remember
+     - Mean , Variance,Averages, Standard Deviation, Diff between Mean and Avaerages

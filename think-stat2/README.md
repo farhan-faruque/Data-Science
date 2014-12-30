@@ -8,6 +8,7 @@ anecdotal evidence usually fails
 * Selection bias
 * Confirmation bias
 * Inaccuracy
+
 A statistical approach
 -----
 * Data collection
@@ -15,3 +16,10 @@ A statistical approach
 * Exploratory data analysis
 * Estimation
 * Hypothesis testing
+
+a cross-sectional study
+-----
+it captures a snapshot of a group at a point in time
+longitudinal study
+------
+which observes a group repeatedly over a period of time

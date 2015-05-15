@@ -10,4 +10,4 @@ def mean(data):
   total = sum(data)
   return total / len(data)
 #x = sum(data)
-print(mean(data))
+#print(mean(data))

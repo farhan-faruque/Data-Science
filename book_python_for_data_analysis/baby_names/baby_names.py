@@ -1,6 +1,16 @@
 __author__ = 'farhan'
 import pandas as pd
 
-names1880 = pd.read_csv('../data/names/yob1880.txt', names = ['name', 'sex', 'births'])
-#names1880.group_by('sex')
-print(names1880.groupby('sex').births.sum())
+years  = range(1880,2014)
+pieces = []
+columns = ['name','sex','births']
+
+for year in years:
+    path = '../data/names/yob%d.txt' %year
+    frame = pd.read_csv(path,names = columns)
+
+    frame['year'] = year
+    pieces.append(frame)
+
+names = pd.concat(pieces,ignore_index=True)
+print(names)

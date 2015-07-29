@@ -19,6 +19,7 @@ top_female_ratings = mean_ratings.sort_index(by='F', ascending = False)
 mean_ratings['diff'] = mean_ratings['M'] - mean_ratings['F']
 sorted_by_diff = mean_ratings.sort_index(by='diff')
 rating_std_by_title = data.groupby('title')['rating'].std()
+
 print(rating_std_by_title.order(ascending=False)[:10])
 
 
